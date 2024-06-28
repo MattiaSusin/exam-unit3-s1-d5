@@ -50,20 +50,16 @@ const TopBar = () => {
             </Nav.Link>
             
             <NavDropdown
-              title={
-                <img
-                  src="./assets/kids_icon.png"
-                  alt="Profilo"
-                  className="rounded-circle"
-                  width="30"
-                />
-              }
-              id="navbarScrollingDropdown"
-              className="dropdown-menu-black"
-            >
-              <NavDropdown.Item href="./page2.html">My Profile</NavDropdown.Item>
-              <NavDropdown.Item href="#">Exit</NavDropdown.Item>
-            </NavDropdown>
+                title={
+                  <img src="./assets/kids_icon.png" alt="Profile" className="rounded-circle " width="30" />
+                }
+                id="collasible-nav-dropdown"
+                menuVariant="dark"
+                className="custom-dropdown"
+              >
+                <NavDropdown.Item href="#" >Edit</NavDropdown.Item>
+                <NavDropdown.Item href="#">Exit</NavDropdown.Item>
+              </NavDropdown>
           </Nav>
         </Navbar.Collapse>
       </Container>
