@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+.imgFilm{
+  width: 50px ;
+}
+
+.card-container {
+  display: flex;
+  overflow-x: auto;
+}
+
+.card-container .card {
+  flex: 0 0 auto;
+  margin-right: 16px;
+}
+
+.card-container .card img {
+  /* height: 100%;
+  width: 100%; */
+  object-fit: cover;
+}
+
+
+.cardImg{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.cardSolid{
+  border: none;
+  height: 306px;
+  width: 243px;
+}
+
+button,img{
+  cursor: pointer;
+}
