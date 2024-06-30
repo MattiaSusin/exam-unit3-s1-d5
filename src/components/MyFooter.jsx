@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-dark text-light py-4">
       <Container>
-        {/* Icon Section */}
+        
         <Row className="mb-4">
           <Col className="d-flex justify-content-start">
             <div className="me-2">
@@ -31,7 +31,6 @@ const Footer = () => {
             </div>
           </Col>
         </Row>
-        {/* Links Section */}
         <Row>
           <Col xs={6} md={3}>
             <p id="pFooter">Audio and Subtitles</p>
@@ -55,11 +54,9 @@ const Footer = () => {
             <p id="pFooter">Corporate Information</p>
           </Col>
         </Row>
-        {/* Service Code Button */}
         <div className="ms-2">
           <button className="bg-dark text-light border-0">Service Code</button>
         </div>
-        {/* Copyright */}
         <div className="text-light pt-2 ms-2">
           <p>© 1997-2019 Netflix, Inc. {`{i-Od0Ofcda2fdf9c0de}`}</p>
         </div>
