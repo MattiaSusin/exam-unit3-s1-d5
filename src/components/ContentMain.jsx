@@ -2,13 +2,11 @@ import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Dropdown from 'react-bootstrap/Dropdown';
-import DropdownButton from 'react-bootstrap/DropdownButton';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Galleria from './Galleria';
 import SerieDue from './SerieDue';
 import SerieUno from './SerieUno';
 import SerieTre from './SerieTre';
-import { DropdownMenu } from 'react-bootstrap';
+
 
 class ContentMain extends Component {
   render() {
