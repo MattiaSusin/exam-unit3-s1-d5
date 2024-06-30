@@ -77,3 +77,113 @@ button,img{
 
 
 
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  z-index: 10,
+}
+
+.card {
+  transition: transform .4s, box-shadow 0.3s;
+}
+
+#pFooter{
+
+  cursor: pointer;
+}
+
+#svg{
+  cursor: pointer;
+}
+
+#btnP2:hover{background-color: white;
+color: grey;}
+
+hr{
+  color: gray;
+}
+
+.baby{
+  translate: -14px 10px;
+  object-fit: cover;
+}
+.imgBaby{
+  object-fit: cover;
+}
+.pencil{
+ width: 16px;
+translate: 9px -20px;
+color: white;
+}
+
+svg path {
+  fill: white;
+}
+svg{
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  width: 1.2em;
+  height: 1.2em;
+  border: 2px solid white;
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;
+}
+
+input[type="checkbox"]:checked::before {
+  content: ""; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0.6em;
+  height: 0.6em;
+  background-color: rgb(255, 255, 255);
+  transform: translate(-50%, -50%);
+}
+
+
+input[type="checkbox"]{
+
+  margin-top: 15px;
+  margin-right: 15px;
+  transform: translate(20%, 28%);
+}
+
+svg{
+  cursor: pointer;
+}
+
+.st0 {  
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+}
+
+#btnEdit{
+  width: 85px;
+}
+
+#btnEdit:hover{background-color: white;
+  color: grey;}
+
+  .btnMat{
+    background-color:#333333;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .btnMat:hover{
+    background-color: rgb(0, 0, 0);
+    color: grey;
+  }
+
+  .btnStrive:hover{
+    background-color: rgb(0, 0, 0);
+    color: grey;
+  }
+
+  .btnStrive{
+    background-color: #666666;
+  }

@@ -58,7 +58,7 @@ const Footer = () => {
           <button className="bg-dark text-light border-0">Service Code</button>
         </div>
         <div className="text-light pt-2 ms-2">
-          <p>© 1997-2019 Netflix, Inc. {`{i-Od0Ofcda2fdf9c0de}`}</p>
+          <p>© 1997-2019 Netflix, Inc.</p>
         </div>
       </Container>
     </footer>
