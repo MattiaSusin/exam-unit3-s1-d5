@@ -187,3 +187,129 @@ svg{
   .btnStrive{
     background-color: #666666;
   }
+
+
+  /* !RESPONSIVE PROFILE PAGE */
+/* ProfilePage.css */
+.bg-black {
+  background-color: black !important;
+}
+
+.netflix-logo {
+  width: 150px;
+  display: block;
+  margin: 0 auto; /* Centra il logo orizzontalmente */
+}
+
+.profile-container {
+  padding: 2rem;
+}
+
+@media (max-width: 576px) {
+  .profile-container {
+    padding: 1rem !important;
+  }
+
+  .baby {
+    width: 100px !important;
+    display: block;
+    margin: 0 auto 1rem auto; /* Centra l'immagine orizzontalmente e aggiunge un margine inferiore */
+  }
+
+  .btnStrive, .btnMat {
+    font-size: 1rem !important;
+    padding: 0.5rem !important;
+    width: 100%; /* Assicura che i pulsanti occupino tutta la larghezza */
+  }
+
+  #btnEdit, #btnP2 {
+    font-size: 0.875rem !important;
+    padding: 0.25rem !important;
+    width: 100%; /* Assicura che i pulsanti occupino tutta la larghezza */
+  }
+
+  .netflix-logo {
+    width: 100px !important;
+  }
+
+  .pencil svg {
+    display: none !important;
+  }
+
+  .text-light {
+    font-size: 0.875rem !important;
+  }
+
+  .fs-1 {
+    font-size: 1.5rem !important;
+    text-align: center; /* Centra il testo dell'header */
+  }
+
+  .fs-3 {
+    font-size: 1.25rem !important;
+    text-align: center; /* Centra il testo */
+  }
+
+  .pt-3, .pb-2, .pt-2 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+
+  .mt-3, .my-4, .mt-5, .mb-4 {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .dropdown-toggle {
+    width: 100% !important;
+  }
+
+  .container.row {
+    padding: 0 !important;
+    text-align: center; /* Centra il contenuto della row */
+  }
+
+  .d-flex.justify-content-around {
+    flex-direction: column !important;
+    align-items: center; /* Centra gli elementi del flexbox */
+  }
+
+  .d-flex.justify-content-around button {
+    margin-bottom: 0.5rem !important;
+    width: 100% !important; /* Assicura che i pulsanti occupino tutta la larghezza */
+  }
+}
+
+@media (min-width: 576px) {
+  .profile-container {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+
+  .d-flex.justify-content-around {
+    flex-direction: row !important;
+    justify-content: space-around;
+  }
+
+  .d-flex.justify-content-around button {
+    width: auto !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .profile-container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .profile-container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .profile-container {
+    max-width: 1140px;
+  }
+}

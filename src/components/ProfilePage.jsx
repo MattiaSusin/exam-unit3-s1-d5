@@ -11,12 +11,12 @@ const ProfilePage = () => {
           </a>
         </div>
       </div>
-      <div className="container p-3 bg-black p-5 w-50">
+      <div className="container p-3 bg-black p-5 w-50 profile-container">
         <h1 className="text-white fs-1 h-100">Edit Profile</h1>
         <hr className="my-4" />
         <div className="row">
-          <div className="col-4 w-25">
-            <div>
+          <div className="col-12 col-md-4 col-lg-3 text-md-start w-25">
+            <div col-md-12>
               <img className="baby" src="./assets/avatar.png" alt="Avatar" width="160" />
             </div>
             <div className="pencil text-light border-light">
@@ -41,7 +41,7 @@ const ProfilePage = () => {
             </div>
           </div>
 
-          <div className="col-6">
+          <div className="col-12 col-md-8 col-lg-6"> 
             <div>
               <div>
                 <button className="btnStrive text-white border border-0 w-100 my-4 py-2 fs-5">Strive Student</button>
@@ -77,7 +77,7 @@ const ProfilePage = () => {
               <hr className="my-4" />
             </div>
 
-            <div>
+            <div className='col-md-12'>
               <h3 className="text-light d-flex justify-content-star ">Autoplay controls</h3>
               <form className="d-flex justify-content-start pt-3">
                 <span id="checkBox" className="me-2">
@@ -94,7 +94,7 @@ const ProfilePage = () => {
             </div>
           </div>
 
-          <div className="row w-75">
+          <div className="row w-75 mx-auto col-md-12">
             <hr className="my-4" />
             <div className="d-flex justify-content-around">
               <button id="btnP2" className="col-2 pt-2 pb-2 btn btn-transparent text-secondary border border-secondary rounded-0">SAVE</button>
