@@ -198,7 +198,7 @@ svg{
 .netflix-logo {
   width: 150px;
   display: block;
-  margin: 0 auto; /* Centra il logo orizzontalmente */
+  margin: 0 auto; 
 }
 
 .profile-container {
@@ -213,19 +213,19 @@ svg{
   .baby {
     width: 100px !important;
     display: block;
-    margin: 0 auto 1rem auto; /* Centra l'immagine orizzontalmente e aggiunge un margine inferiore */
+    margin: 0 auto 1rem auto; 
   }
 
   .btnStrive, .btnMat {
     font-size: 1rem !important;
     padding: 0.5rem !important;
-    width: 100%; /* Assicura che i pulsanti occupino tutta la larghezza */
+    width: 100%; 
   }
 
   #btnEdit, #btnP2 {
     font-size: 0.875rem !important;
     padding: 0.25rem !important;
-    width: 100%; /* Assicura che i pulsanti occupino tutta la larghezza */
+    width: 100%; 
   }
 
   .netflix-logo {
@@ -242,12 +242,12 @@ svg{
 
   .fs-1 {
     font-size: 1.5rem !important;
-    text-align: center; /* Centra il testo dell'header */
+    text-align: center; 
   }
 
   .fs-3 {
     font-size: 1.25rem !important;
-    text-align: center; /* Centra il testo */
+    text-align: center; 
   }
 
   .pt-3, .pb-2, .pt-2 {
@@ -266,17 +266,17 @@ svg{
 
   .container.row {
     padding: 0 !important;
-    text-align: center; /* Centra il contenuto della row */
+    text-align: center; 
   }
 
   .d-flex.justify-content-around {
     flex-direction: column !important;
-    align-items: center; /* Centra gli elementi del flexbox */
+    align-items: center; 
   }
 
   .d-flex.justify-content-around button {
     margin-bottom: 0.5rem !important;
-    width: 100% !important; /* Assicura che i pulsanti occupino tutta la larghezza */
+    width: 100% !important; 
   }
 }
 
