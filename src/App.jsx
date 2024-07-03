@@ -8,10 +8,10 @@ import ProfilePage from "./components/ProfilePage";
 function App() {
   return (
     <div className="App">
-      {/* <TopBar/>
+      <TopBar/>
       <ContentMain/>
-      <MyFooter/> */}
-      <ProfilePage/>
+      <MyFooter/>
+      {/* <ProfilePage/> */}
     </div>
   );
 }
